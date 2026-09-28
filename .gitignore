@@ -1,0 +1,35 @@
+@"
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Database files
+*.db
+
+# Build output
+dist/
+build/
+
+# Browser/downloaded files
+*_files/
+*.download
+
+# Supabase browser exports
+"Untitled query _ SQL Editor _ My Project _ Student _ Supabase.html"
+"Emails _ Authentication_ My Project _ Student _ Supabase_files/"
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+"@ | Set-Content .gitignore"Untitled query _ SQL Editor _ My Project _ Student _ Supabase.html"
